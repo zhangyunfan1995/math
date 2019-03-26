@@ -3,12 +3,18 @@ package com.yuf.utils.math.random.myconverter;
 import com.yuf.utils.math.random.myrandom.MyRandomImpl;
 
 import java.util.Random;
+/*
 
+转换器,用于各类型之间的转换(预留)
+ */
 public class MyConverterImpl implements iMyConverter {
+
+    //Double至String
     @Override
     public String DoubleToString(Double d) {
         return null;
     }
+
 
     @Override
     public Double StringToDouble(String t) {

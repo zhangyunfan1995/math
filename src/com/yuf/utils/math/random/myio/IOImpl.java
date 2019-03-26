@@ -1,16 +1,19 @@
 package com.yuf.utils.math.random.myio;
 
-import com.yuf.utils.math.random.myconverter.MyConverterImpl;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
+/*
+输入输出模块接口实现
+ */
 public class IOImpl implements iIO {
+    //预留
     @Override
     public Scanner Input() {
         return null;
     }
 
+    //预留
     @Override
     public Scanner Input(String str) {
         System.out.println(str);
@@ -18,6 +21,7 @@ public class IOImpl implements iIO {
         return input;
     }
 
+    //将随机数生成模块生成的随机数arrayList转化为屏幕输出
     @Override
     public void Output(ArrayList<?> e) {
         for(int i = 0;i<e.size();i++){
